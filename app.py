@@ -11,6 +11,7 @@ import cv2 as cv
 import numpy as np
 import mediapipe as mp
 
+from spotify.spotify_handler import SpotifyHandler
 from utils import CvFpsCalc
 from model import KeyPointClassifier
 from model import PointHistoryClassifier
@@ -98,6 +99,8 @@ def main():
     #  ########################################################################
     mode = 0
 
+    spotify_handler = SpotifyHandler()
+
     while True:
         fps = cvFpsCalc.get()
 
@@ -145,6 +148,8 @@ def main():
                     point_history.append(landmark_list[8])
                 else:
                     point_history.append([0, 0])
+
+                spotify_handler.handle_hand_gesture(keypoint_classifier_labels[hand_sign_id])
 
                 # Finger gesture classification
                 finger_gesture_id = 0
