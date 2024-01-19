@@ -149,7 +149,7 @@ def main():
                 else:
                     point_history.append([0, 0])
 
-                spotify_handler.handle_hand_gesture(keypoint_classifier_labels[hand_sign_id])
+                # spotify_handler.handle_hand_gesture(keypoint_classifier_labels[hand_sign_id])
 
                 # Finger gesture classification
                 finger_gesture_id = 0
