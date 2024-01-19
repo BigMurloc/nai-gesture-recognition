@@ -21,7 +21,14 @@ Example video showcasing control of Spotify:
 
 https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/a7ad7e19-ad94-448e-a5d7-652614a7b911
 
-# Authors
+## How to use
+
+1. Ensure you have a webcam connected (otherwise the app will fail)
+2. Ensure that all requirements are installed
+3. Ensure that there is .env file at directory root with `SPOTIFY_CLIENT_ID` and `SPOTIFY_SECRET` envs specified
+4. Run app.py and follow the instructions (you'll need to verify your spotify acc first time using this app) 
+
+## Authors
 
 - Dominik Pasymowski
 - Michał Cichowski
