@@ -21,3 +21,7 @@ Example video showcasing control of Spotify:
 
 https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/a7ad7e19-ad94-448e-a5d7-652614a7b911
 
+# Authors
+
+- Dominik Pasymowski
+- Michał Cichowski
