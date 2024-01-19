@@ -16,3 +16,8 @@ The available commands are:
 
 - Previous song![previous_song](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/56d2c2d4-0293-42f5-8417-28dc4899ca99)
 
+Example video showcasing control of Spotify: 
+
+
+https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/a7ad7e19-ad94-448e-a5d7-652614a7b911
+
