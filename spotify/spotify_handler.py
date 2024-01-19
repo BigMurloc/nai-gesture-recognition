@@ -65,6 +65,8 @@ class SpotifyHandler:
         if hand_gesture == 'Previous song':
             self.spotify.previous_track()
 
+        print('Sent ' + hand_gesture + ' command')
+
     def _is_time_locked(self):
         if self.time_lock is None:
             self._set_new_time_lock()
