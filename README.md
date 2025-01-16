@@ -14,7 +14,7 @@ The available commands are:
 
 - Next song <br/>![next_song](gif/next.gif)
 
-- Previous song <br/>![previous_song](gif/resume.gif)
+- Previous song <br/>![previous_song](gif/previous.gif)
 
 
 ## How to use
