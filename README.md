@@ -25,6 +25,8 @@ The available commands are:
 4. Ensure that there is .env file at directory root with `SPOTIFY_CLIENT_ID` and `SPOTIFY_SECRET` envs specified
 5. Run app.py and follow the instructions (you'll need to verify your spotify acc first time using this app) 
 
-## Author
+## Authors
 
+- Dominik Pasymowski
 - Michał Cichowski
+  
