@@ -99,6 +99,7 @@ def main():
     #  ########################################################################
     mode = 0
 
+    #initialaze spotify
     spotify_handler = SpotifyHandler()
 
     while True:

@@ -3,4 +3,4 @@ numpy==1.26.3
 opencv_contrib_python==4.9.0.80
 python-dotenv==1.0.0
 spotipy==2.23.0
-tensorflow==2.15.0.post1
+tensorflow==2.15.0

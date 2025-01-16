@@ -11,8 +11,8 @@ class MissingEnvironmentVariable(Exception):
 
 
 def init_spotify():
-    client_id = validate_and_return_env_variable('SPOTIFY_CLIENT_ID')
-    client_secret = validate_and_return_env_variable('SPOTIFY_SECRET')
+    client_id = validate_and_return_env_variable("SPOTIPY_CLIENT_ID")
+    client_secret = validate_and_return_env_variable("SPOTIPY_CLIENT_SECRET")
 
     scope = "user-modify-playback-state,user-read-playback-state"
 
@@ -20,7 +20,7 @@ def init_spotify():
         auth_manager=SpotifyOAuth(
             client_id,
             client_secret,
-            redirect_uri="http://localhost/",
+            redirect_uri="http://localhost:3000",
             scope=scope
         )
     )

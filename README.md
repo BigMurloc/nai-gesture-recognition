@@ -4,31 +4,27 @@ This is an application for NAI class at PJATK university.
 The goal of this repository is to create an application that's able to control Spotify player through gestures made on webcam. 
 
 The available commands are: 
-- Pause![pause](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/a532a787-fef7-4993-a104-38687ca793fb)
+- Pause<br/>![pause](gif/pause.gif)
 
-- Resume![resume](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/eccafe83-e4f4-43a7-9ac1-24a725a468e1)
+- Resume<br/>![resume](gif/resume.gif)
 
-- Mute![mute](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/22692bea-028f-4546-b7f8-99799f1a8a67)
+- Mute <br/>![mute](gif/mute.gif)
 
-- Unmute![unmute](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/10b06038-02b2-4d48-bff3-99b5fccf2686)
+- Unmute <br/>![unmute](gif/unmute.gif)
 
-- Next song![next_song](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/c8d17353-0a23-42f0-8856-2577f25b7f82)
+- Next song <br/>![next_song](gif/next.gif)
 
-- Previous song![previous_song](https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/56d2c2d4-0293-42f5-8417-28dc4899ca99)
+- Previous song <br/>![previous_song](gif/resume.gif)
 
-Example video showcasing control of Spotify: 
-
-
-https://github.com/BigMurloc/nai-gesture-recognition/assets/57963469/a7ad7e19-ad94-448e-a5d7-652614a7b911
 
 ## How to use
 
-1. Ensure you have a webcam connected (otherwise the app will fail)
-2. Ensure that all requirements are installed
-3. Ensure that there is .env file at directory root with `SPOTIFY_CLIENT_ID` and `SPOTIFY_SECRET` envs specified
-4. Run app.py and follow the instructions (you'll need to verify your spotify acc first time using this app) 
+1. Python 3.9 > 
+2. Ensure you have a webcam connected (otherwise the app will fail)
+3. Ensure that all requirements are installed
+4. Ensure that there is .env file at directory root with `SPOTIFY_CLIENT_ID` and `SPOTIFY_SECRET` envs specified
+5. Run app.py and follow the instructions (you'll need to verify your spotify acc first time using this app) 
 
-## Authors
+## Author
 
-- Dominik Pasymowski
 - Michał Cichowski
